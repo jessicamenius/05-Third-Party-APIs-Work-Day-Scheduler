@@ -28,7 +28,7 @@ THEN each timeblock is color coded to indicate whether it is in the past, presen
 WHEN I click into a timeblock
 THEN I can enter an event
     *Create a textarea, use event.preventDefault():*
-    *If/else statement - if now < start of hour, no comments can be added, else now >start of hour, comments can be added.
+
 
 WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
@@ -37,6 +37,5 @@ THEN the text for that event is saved in local storage
 
 WHEN I refresh the page
 THEN the saved events persist
-    *Events added to local storage*
-    *Events don't leave page
+    *Events added to local storage, remain on page*
 ```
