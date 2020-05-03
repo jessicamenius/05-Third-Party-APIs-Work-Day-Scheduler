@@ -4,7 +4,10 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $("#saveBtn").on("click", function () {});
+  $("#saveBtn").on("click", function () {
+    var currentHour = 
+
+  });
 });
 
 //     // Add to local storage
